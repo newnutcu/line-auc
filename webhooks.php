@@ -1,6 +1,7 @@
 <?php
 	//คัดลอก Channel access token จากหน้าตั้งค่าของเว็บไซต์ developer.line.me/en
-	$accessToken = "htJIBz/ahMKgBgbFSNC3pje4Sq+NZPXnMRIl98C1wMlPCuVIdZY6KVFyNtRCMB0y7I9FqBYYz4wo/K/44pnm6TSCfJIu8L3+JMnkxQN0vgu1iyDtCMJ5ysb7czYRMhvVtiZIgvNz56EAnSAZFwSOPgdB04t89/1O/w1cDnyilFU="	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
+	$accessToken = "U0/ILjn10a74Ph/zBAwE/+I4o0Rbr47H5GDNDbQRSMv+md+NDnbHuFPIlHtkqRJn7I9FqBYYz4wo/K/44pnm6TSCfJIu8L3+JMnkxQN0vguXDEBSlH221OQmKndY45LToIvLuJ9nN4BA7tqog9V6awdB04t89/1O/w1cDnyilFU="
+	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
 	$payloads = file_get_contents("php://input");
 	
 	// เปลี่ยนประเภทตัวแปรของ $payloads จากประเภท String เป็น Object เพื่อให้สามารถดึงค่าได้
