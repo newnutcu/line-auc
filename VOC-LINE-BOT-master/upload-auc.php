@@ -18,7 +18,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
-        <title>Upload VOC xlsx file</title>
+        <title>Upload AUC xlsx file</title>
         <!-- css -->
         <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css" />
         <link href="https://fonts.googleapis.com/css?family=Pridi|Niramit|K2D" rel="stylesheet">
@@ -44,7 +44,7 @@
                 <div class="col-lg-4 offset-lg-4">
                     <form name="auc-form" id="auc-form" method="POST" class="text-center" enctype="multipart/form-data">
                         <div class="form-group">
-                            <h1>อัพโหลด AUC FILE</h1>
+                            <h1>Upload AUC FILE</h1>
                             <label for="aucfile">ไฟล์ AUC</label>
                             <input type="file" required name="aucfile" class="form-control-file btn btn-dark" id="aucfile" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet">
                         </div>
