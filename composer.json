@@ -1,9 +1,12 @@
 {
-    "name": "newnutcu/line-auc",
+    "name": "cheevavorn/line-bot",
     "authors": [
         {
-            "name": "Anas Sunmood",
-            "email": "anas_sunmood@hotmail.com"
+            "name": "Cheevavorn Saitthakool",
+            "email": "mean.mea2@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.1"
+    }
 }
